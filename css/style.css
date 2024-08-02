@@ -3,7 +3,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: #0e121d;
-	background-image: url(https://demos.codexcoder.com/themeforest/html/ollya/assets/images/banner/bg-2.jpg);
+	background-image: url("../images/bg-2.webp");
 	background-size: cover;
   overflow: hidden;
 }
