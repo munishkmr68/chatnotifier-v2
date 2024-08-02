@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>chatnotifier</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/datepicker.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="model-1 model">
+      <img class="img-fluid" src="images/model1.png" />
+    </div>
+    <div class="model-2 model">
+      <img class="img-fluid" src="images/model2.png" />
+    </div>
+    <div class="shape-image shape-3">
+      <img alt="Shape Images" src="images/shape-3.png" />
+    </div>
+    <div class="shape-image shape-2">
+      <img src="images/shape-2.png" alt="Shape Images" />
+    </div>
+    <div class="container">
+      <div
+        class="row py-4 overflow-auto vh-100 align-items-center justify-content-center"
+      >
+        <div class="col-lg-6 col-md-8 col-10 col-xl-5">
+          <div class="stepcard">
+            <div class="step-card step-1 active">
+              <h5 class="mb-3 title">Kontakt garantiert!</h5>
+              <div class="step-card-content">
+                <p class="card-text">
+                  Es gibt <span>78 weibliche Mitglieder</span> im Umkreis von 10
+                  Kilometern von deinem Standort. Diese Website hat nur
+                  <span>normale Frauen</span> als Mitglieder, die deine
+                  Nachrichten wirklich beantworten werden. Sie werden
+                  <span>sogar zuerst mit dir Kontakt aufnehmen</span>!
+                </p>
+                <p class="card-text">
+                  Es gibt eine begrenzte Anzahl von
+                  <span>kostenlosen Anmeldungen</span>. Melde dich jetzt an und
+                  sichere dir deine Platz. Nach dieser Registrierungsrunde musst
+                  du warten, bis <span id="monthz">August</span>.
+                </p>
+                <ul class="list-unstyled list d-flex flex-column gap-1 mb-0">
+                  <li>
+                    <i class="fa-solid fa-check"></i> Keine Kreditkarte
+                    erforderlich
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Keine wiederkehrenden
+                    Kosten
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% verifizierte Profile
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-primary w-100 next-btn mt-4"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+            <div class="step-card step-2">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <p class="mb-3 text-danger">
+                <span>Du musst 18+ sein, um fortzufahren</span>.
+              </p>
+              <div class="step-card-content">
+                <label class="form-label">Geburtsdatum</label>
+                <div class="row mb-3">
+                  <div class="col-4">
+                    <select
+                      id="geb_datum"
+                      placeholder="Tag"
+                      class="form-select"
+                    >
+                      <option value="">Tag</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                      <option>20</option>
+                      <option>21</option>
+                      <option>22</option>
+                      <option>23</option>
+                      <option>24</option>
+                      <option>25</option>
+                      <option>26</option>
+                      <option>27</option>
+                      <option>28</option>
+                      <option>29</option>
+                      <option>30</option>
+                      <option>31</option>
+                    </select>
+                  </div>
+                  <div class="col-4 px-0">
+                    <select placeholder="Monat" class="form-select">
+                      <option value="">Monat</option>
+                      <option>Januar</option>
+                      <option>Februar</option>
+                      <option>März</option>
+                      <option>April</option>
+                      <option>Mai</option>
+                      <option>Juni</option>
+                      <option>Juli</option>
+                      <option>August</option>
+                      <option>September</option>
+                      <option>Oktober</option>
+                      <option>November</option>
+                      <option>Dezember</option>
+                    </select>
+                  </div>
+                  <div class="col-4">
+                    <select placeholder="Jahr" class="form-select">
+                      <option value="">Jahr</option>
+                      <option>2005</option>
+                      <option>2004</option>
+                      <option>2003</option>
+                      <option>2002</option>
+                      <option>2001</option>
+                      <option>2000</option>
+                      <option>1999</option>
+                      <option>1998</option>
+                      <option>1997</option>
+                      <option>1996</option>
+                      <option>1995</option>
+                      <option>1994</option>
+                      <option>1993</option>
+                      <option>1992</option>
+                      <option>1991</option>
+                      <option>1990</option>
+                      <option>1989</option>
+                      <option>1988</option>
+                      <option>1987</option>
+                      <option>1986</option>
+                      <option>1985</option>
+                      <option>1984</option>
+                      <option>1983</option>
+                      <option>1982</option>
+                      <option>1981</option>
+                      <option>1980</option>
+                      <option>1979</option>
+                      <option>1978</option>
+                      <option>1977</option>
+                      <option>1976</option>
+                      <option>1975</option>
+                      <option>1974</option>
+                      <option>1973</option>
+                      <option>1972</option>
+                      <option>1971</option>
+                      <option>1970</option>
+                      <option>1969</option>
+                      <option>1968</option>
+                      <option>1967</option>
+                      <option>1966</option>
+                      <option>1965</option>
+                      <option>1964</option>
+                      <option>1963</option>
+                      <option>1962</option>
+                      <option>1961</option>
+                      <option>1960</option>
+                      <option>1959</option>
+                      <option>1958</option>
+                      <option>1957</option>
+                      <option>1956</option>
+                      <option>1955</option>
+                      <option>1954</option>
+                      <option>1953</option>
+                      <option>1952</option>
+                      <option>1951</option>
+                      <option>1950</option>
+                      <option>1949</option>
+                      <option>1948</option>
+                      <option>1947</option>
+                      <option>1946</option>
+                      <option>1945</option>
+                      <option>1944</option>
+                      <option>1943</option>
+                      <option>1942</option>
+                      <option>1941</option>
+                      <option>1940</option>
+                      <option>1939</option>
+                      <option>1938</option>
+                      <option>1937</option>
+                      <option>1936</option>
+                      <option>1935</option>
+                      <option>1934</option>
+                      <option>1933</option>
+                      <option>1932</option>
+                      <option>1931</option>
+                      <option>1930</option>
+                      <option>1929</option>
+                      <option>1928</option>
+                      <option>1927</option>
+                      <option>1926</option>
+                      <option>1925</option>
+                      <option>1924</option>
+                      <option>1923</option>
+                      <option>1922</option>
+                      <option>1921</option>
+                      <option>1920</option>
+                      <option>1919</option>
+                      <option>1918</option>
+                      <option>1917</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-3">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <p class="card-text">Erzähle uns von dir!</p>
+                <div class="mb-3">
+                  <label class="form-label">Ich bin ein</label>
+                  <select id="gender" class="form-select">
+                    <option value="" selected>Wähle dein Geschlecht</option>
+                    <option value="1">Mann</option>
+                    <option value="2">Frau</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Ich suche eine/n</label>
+                  <select id="looking_for" class="form-select">
+                    <option value="" selected>Wonach suchst du?</option>
+                    <option value="1">Mann</option>
+                    <option value="1">Frau</option>
+                  </select>
+                </div>
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-4">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <p class="card-text">
+                  Was wäre das ideale Alter für deinen Match?
+                </p>
+                <div class="d-flex gap-2">
+                  <div class="mb-3 flex-fill">
+                    <label class="form-label">Alter von</label>
+                    <select id="age_from" class="form-select datum">
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                      <option value="33">33</option>
+                      <option value="34">34</option>
+                      <option value="35">35</option>
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                      <option value="40">40</option>
+                      <option value="41">41</option>
+                      <option value="42">42</option>
+                      <option value="43">43</option>
+                      <option value="44">44</option>
+                      <option value="45">45</option>
+                      <option value="46">46</option>
+                      <option value="47">47</option>
+                      <option value="48">48</option>
+                      <option value="49">49</option>
+                      <option value="50">50</option>
+                      <option value="51">51</option>
+                      <option value="52">52</option>
+                      <option value="53">53</option>
+                      <option value="54">54</option>
+                      <option value="55">55</option>
+                      <option value="56">56</option>
+                      <option value="57">57</option>
+                      <option value="58">58</option>
+                      <option value="59">59</option>
+                      <option value="60">60</option>
+                      <option value="61">61</option>
+                      <option value="62">62</option>
+                      <option value="63">63</option>
+                      <option value="64">64</option>
+                      <option value="65">65</option>
+                      <option value="66">66</option>
+                      <option value="67">67</option>
+                      <option value="68">68</option>
+                      <option value="69">69</option>
+                      <option value="70">70</option>
+                      <option value="71">71</option>
+                      <option value="72">72</option>
+                      <option value="73">73</option>
+                      <option value="74">74</option>
+                      <option value="75">75</option>
+                      <option value="76">76</option>
+                      <option value="77">77</option>
+                      <option value="78">78</option>
+                      <option value="79">79</option>
+                      <option value="80">80</option>
+                      <option value="81">81</option>
+                      <option value="82">82</option>
+                      <option value="83">83</option>
+                      <option value="84">84</option>
+                      <option value="85">85</option>
+                      <option value="86">86</option>
+                      <option value="87">87</option>
+                      <option value="88">88</option>
+                      <option value="89">89</option>
+                      <option value="90">90</option>
+                      <option value="91">91</option>
+                      <option value="92">92</option>
+                      <option value="93">93</option>
+                      <option value="94">94</option>
+                      <option value="95">95</option>
+                      <option value="96">96</option>
+                      <option value="97">97</option>
+                      <option value="98">98</option>
+                      <option value="99">99</option>
+                    </select>
+                  </div>
+                  <div class="mb-3 flex-fill">
+                    <label class="form-label">Alter bis zu</label>
+                    <select id="age_to" class="form-select datum">
+                      <option value="99">99</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                      <option value="33">33</option>
+                      <option value="34">34</option>
+                      <option value="35">35</option>
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                      <option value="40">40</option>
+                      <option value="41">41</option>
+                      <option value="42">42</option>
+                      <option value="43">43</option>
+                      <option value="44">44</option>
+                      <option value="45">45</option>
+                      <option value="46">46</option>
+                      <option value="47">47</option>
+                      <option value="48">48</option>
+                      <option value="49">49</option>
+                      <option value="50">50</option>
+                      <option value="51">51</option>
+                      <option value="52">52</option>
+                      <option value="53">53</option>
+                      <option value="54">54</option>
+                      <option value="55">55</option>
+                      <option value="56">56</option>
+                      <option value="57">57</option>
+                      <option value="58">58</option>
+                      <option value="59">59</option>
+                      <option value="60">60</option>
+                      <option value="61">61</option>
+                      <option value="62">62</option>
+                      <option value="63">63</option>
+                      <option value="64">64</option>
+                      <option value="65">65</option>
+                      <option value="66">66</option>
+                      <option value="67">67</option>
+                      <option value="68">68</option>
+                      <option value="69">69</option>
+                      <option value="70">70</option>
+                      <option value="71">71</option>
+                      <option value="72">72</option>
+                      <option value="73">73</option>
+                      <option value="74">74</option>
+                      <option value="75">75</option>
+                      <option value="76">76</option>
+                      <option value="77">77</option>
+                      <option value="78">78</option>
+                      <option value="79">79</option>
+                      <option value="80">80</option>
+                      <option value="81">81</option>
+                      <option value="82">82</option>
+                      <option value="83">83</option>
+                      <option value="84">84</option>
+                      <option value="85">85</option>
+                      <option value="86">86</option>
+                      <option value="87">87</option>
+                      <option value="88">88</option>
+                      <option value="89">89</option>
+                      <option value="90">90</option>
+                      <option value="91">91</option>
+                      <option value="92">92</option>
+                      <option value="93">93</option>
+                      <option value="94">94</option>
+                      <option value="95">95</option>
+                      <option value="96">96</option>
+                      <option value="97">97</option>
+                      <option value="98">98</option>
+                      <option value="99">99</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-5">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <p class="card-text">
+                  Wo wohnst du? Wir werden in diesem Gebiet nach deinem Match
+                  suchen. Natürlich kannst du auch in anderen Gebieten suchen.
+                </p>
+
+                <input
+                  type="text"
+                  autocomplete="off"
+                  placeholder="Stadt"
+                  id="input-location"
+                  class="form-control"
+                />
+
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-6">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <p class="card-text">Wie können diese Frauen dich erreichen?</p>
+                <div>
+                  <label class="form-label"
+                    >E-Mail-Adresse (nicht sichtbar für andere)</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="beispiel@email.de"
+                    id="input-email"
+                  />
+                </div>
+                <p class="error mt-2 text-danger" style="display: none">
+                  Füllen Sie Ihre email Adresse aus
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-7">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <div>
+                  <label class="form-label">
+                    Wähle einen Benutzernamen
+                    <span class="text-danger">(mindestens 6 Zeichen)</span>
+                  </label>
+
+                  <input
+                    type="text"
+                    placeholder="Wähle einen Benutzernamen..."
+                    id="gebruikersnaam"
+                    autocomplete="off"
+                    minlength="6"
+                    maxlength="25"
+                    class="form-control mb-3"
+                  />
+                </div>
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-8">
+              <h5 class="mb-3 title">Beantworte die folgenden Fragen</h5>
+              <div class="step-card-content">
+                <div>
+                  <label class="form-label">
+                    Wähle ein Passwort
+                    <span class="text-danger">(mindestens 6 Zeichen)</span>
+                  </label>
+                  <input
+                    type="password"
+                    placeholder="Wähle ein Passwort..."
+                    id="wachtwoord"
+                    autocomplete="new-password"
+                    minlength="6"
+                    maxlength="25"
+                    class="form-control"
+                  />
+                </div>
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="step-card step-9">
+              <h5 class="mb-3 title">Überprüfe deine Antworten</h5>
+              <div class="step-card-content">
+                <ul class="list-unstyled list d-flex flex-column gap-1">
+                  <li>
+                    <i class="fa-solid fa-check"></i> Keine Benutzername: rishab
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Keine Passwort: admin@123
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% E-Mail:
+                    mexsus@gmail.com
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% Geschlecht: Mann
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% Suche nach: Mann
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% Geburtsdatum: 1
+                    Januar 1990
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% Bundesland: Bayern
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> 100% Stadt: Bad Berneck i.
+                    Fichtelgebirge
+                  </li>
+                </ul>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Ich erkläre hiermit, dass ich mindestens 18 Jahre alt bin
+                    und durch meine Teilnahme mit den
+                    <a
+                      href="https://lokaltreffen.com/conditions"
+                      target="_blank"
+                      >Allgemeinen Geschäftsbedingungen</a
+                    >
+                    und der Nutzung von fiktiven Profilen einverstanden bin. Mit
+                    der Übermittlung meiner Kontodaten erkläre ich mich damit
+                    einverstanden, dass Yellow Connectivity B.V. meine
+                    persönlichen Daten in Übereinstimmung mit den folgenden
+                    Bestimmungen verarbeitet
+                    <a href="https://lokaltreffen.com/privacy" target="_blank"
+                      >Erklärung zum Datenschutz</a
+                    >.
+                  </label>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary w-100 next-btn"
+                    style="display: none"
+                    onclick = "next_step()"
+                  >
+                    Weiter
+                  </button>
+                </div>
+              </div>
+            </div>
+
+                <fieldset
+                  id="f4"
+                  class="looking_for_loading"
+                  style="display: none"
+                >
+                  <h5 id="p1" class="card-title" style="display: none">
+                    Suche nach geeigneten Partnern...
+                  </h5>
+                  <h5 id="p2" class="card-title" style="display: none">
+                    Überprüfung früherer Registrierungen...
+                  </h5>
+                  <h5 id="p3" class="card-title" style="display: none">
+                    Website mit den meisten Übereinstimmungen bestimmen...
+                  </h5>
+                  <h5 id="p4" class="card-title" style="">
+                    Freie Plätze bei der Anmeldung prüfen...
+                  </h5>
+                  <div id="loader " role="status" class="spinner-border"></div>
+                  <div id="v1" style="display: none">
+                    <p>Du hast Anspruch auf eine Registrierung.</p>
+                  </div>
+                  <div id="v2" style="display: none">
+                    <p>Du hast Anspruch auf eine Registrierung.</p>
+                    <p>
+                      <strong>391</strong> Frauen gefunden, die deinen
+                      Anforderungen entsprechen. Sie sind auf 30 verschiedenen
+                      Websites registriert.
+                    </p>
+                  </div>
+                  <div id="v3" style="display: none">
+                    <p>Du hast Anspruch auf eine Registrierung.</p>
+                    <p>
+                      <strong>391</strong> Frauen gefunden, die deinen
+                      Anforderungen entsprechen. Sie sind auf 30 verschiedenen
+                      Websites registriert.
+                    </p>
+                    <p>Keine früheren Registrierungen gefunden.</p>
+                    <div class="logo-search-container">
+                      <hr />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.SUCHE.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.MEINL.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.TREFF.mail.png"
+                        class="logo-search current"
+                        style=""
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.FICKL.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.BD4XX.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.DEC00.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.DEC02.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.DEM02.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                      <img
+                        src="https://16hl07csd16.nl/cdn/fh2/cardiff/logo/logo.DEM03.mail.png"
+                        class="logo-search"
+                        style="display: none"
+                      />
+                    </div>
+                  </div>
+                  <div id="v4" style="display: none">
+                    <p>Du hast Anspruch auf eine Registrierung.</p>
+                    <p>
+                      <strong>391</strong> Frauen gefunden, die deinen
+                      Anforderungen entsprechen. Sie sind auf 30 verschiedenen
+                      Websites registriert.
+                    </p>
+                    <p>Keine früheren Registrierungen gefunden.</p>
+                    <div class="logo-search-container">
+                      <hr />
+                      <img
+                        src="https://23mlf01ccde23.com/cdn/fh2/cardiff-2403/logo/logo.MEINL.mail.png"
+                        class="logo-search"
+                      />
+                    </div>
+                    <p>
+                      Meinlokalflirt.com hat <strong>88</strong> passende
+                      Treffer für dich!
+                    </p>
+                  </div>
+                  <div id="v5" style="">
+                    <p>Du hast Anspruch auf eine Registrierung.</p>
+                    <p>
+                      <strong>391</strong> Frauen gefunden, die deinen
+                      Anforderungen entsprechen. Sie sind auf 30 verschiedenen
+                      Websites registriert.
+                    </p>
+                    <p>Keine früheren Registrierungen gefunden.</p>
+                    <div class="logo-search-container">
+                      <hr />
+                      <img
+                        src="https://23mlf01ccde23.com/cdn/fh2/cardiff-2403/logo/logo.MEINL.mail.png"
+                        class="logo-search"
+                      />
+                    </div>
+                    <p>
+                      Meinlokalflirt.com hat <strong>88</strong> passende
+                      Treffer für dich!
+                    </p>
+                    <p>
+                      Zurzeit sind <strong>3 Anmeldeplätze </strong>verfügbar.
+                    </p>
+                  </div>
+                </fieldset>
+                <fieldset id="f5" style="display: none">
+                  <h5 class="card-title">
+                    Herzlichen Glückwunsch, du bist für die Anmeldung bei
+                    Meinlokalflirt.com berechtigt!
+                  </h5>
+                  <div class="logo-search-container">
+                    <hr />
+                    <img
+                      src="https://23mlf01ccde23.com/cdn/fh2/cardiff-2403/logo/logo.MEINL.mail.png"
+                      class="logo-search"
+                    />
+                  </div>
+                  <p>Du musst die folgenden Regeln akzeptieren:</p>
+                  <ol>
+                    <li>
+                      Wenn du auf der Website jemanden siehst, den du kennst,
+                      gehe bitte diskret damit um. Behalte diese Information für
+                      dich.
+                    </li>
+                    <li>
+                      Es liegt in der Verantwortung aller Mitglieder, sich
+                      jederzeit vor sexuell übertragbaren Krankheiten zu
+                      schützen.
+                    </li>
+                    <li>
+                      Bitte respektiere andere Mitglieder. Unsere Mitglieder
+                      sind normale Frauen und Männer, die hier ihre geheimen
+                      Fantasien ausleben möchten. Dafür sollte sie niemand
+                      herablassend behandeln.
+                    </li>
+                  </ol>
+                  <p>
+                    Die Nichteinhaltung dieser Regeln führt zur sofortigen
+                    Schließung deines Kontos! Wenn du die oben genannten Regeln
+                    akzeptierst, klicke auf die Schaltfläche "Zustimmen", um zur
+                    Registrierungsseite zu gelangen.
+                  </p>
+                  <button type="button" id="fb-register" class="btn btn-brand">
+                    Zustimmen
+                  </button>
+                </fieldset>
+   
+            <!-- <div class="step-card step-11">
+              <div id="spinner" class="spinner-overlay" style="display: none">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <h5 class="mb-3 title">
+                Herzlichen Glückwunsch, du bist für die Anmeldung bei
+                Meinlokalflirt.com berechtigt!
+              </h5>
+              <div class="step-card-content">
+                <div class="logo-search-container">
+                  <hr />
+                  <img class="logo-search current" src="images/logo1.webp" />
+                  <img class="logo-search" src="images/logo2.webp" />
+                  <img class="logo-search" src="images/logo3.webp" />
+                  <img class="logo-search" src="images/logo4.webp" />
+                  <img class="logo-search" src="images/logo5.webp" />
+                  <img class="logo-search" src="images/logo6.webp" />
+                  <img class="logo-search" src="images/logo7.webp" />
+                  <img class="logo-search" src="images/logo8.webp" />
+                  <img class="logo-search" src="images/logo9.webp" />
+                </div>
+                <h6 class="mb-3">Du musst die folgenden Regeln akzeptieren:</h6>
+                <ul class="list-unstyled list d-flex flex-column gap-1">
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Wenn du auf der Website jemanden siehst, den du kennst, gehe
+                    bitte diskret damit um. Behalte diese Information für dich.
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Es liegt in der Verantwortung aller Mitglieder, sich
+                    jederzeit vor sexuell übertragbaren Krankheiten zu schützen.
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Bitte respektiere andere Mitglieder. Unsere Mitglieder sind
+                    normale Frauen und Männer, die hier ihre geheimen Fantasien
+                    ausleben möchten. Dafür sollte sie niemand herablassend
+                    behandeln.
+                  </li>
+                </ul>
+                <p>
+                  Die Nichteinhaltung dieser Regeln führt zur sofortigen
+                  Schließung deines Kontos! Wenn du die oben genannten Regeln
+                  akzeptierst, klicke auf die Schaltfläche "Zustimmen", um zur
+                  Registrierungsseite zu gelangen.
+                </p>
+
+                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                  <button type="button" class="btn btn-primary w-100 next-btn">
+                    Weiter
+                  </button>
+                  <button type="button" class="btn btn-dark w-100 back-btn">
+                    Zurück
+                  </button>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const nextButtons = document.querySelectorAll(".next-btn");
+        const backButtons = document.querySelectorAll(".back-btn");
+        let currentStep = 0;
+        const steps = document.querySelectorAll(".step-card");
+        const stepContainer = document.querySelector(".stepcard");
+
+        function adjustHeight() {
+          const activeStep = steps[currentStep];
+          const height = activeStep.scrollHeight;
+          stepContainer.style.height = height + "px";
+        }
+
+        function showStep(step) {
+          steps.forEach((element, index) => {
+            if (index === step) {
+              element.classList.add("slide-in");
+              element.classList.remove("slide-out");
+              element.classList.add("active");
+              element.style.display = "block"; // Set display to block for the active step
+            } else {
+              element.classList.remove("slide-in");
+              element.classList.add("slide-out");
+              element.classList.remove("active");
+              element.style.display = "none"; // Hide non-active steps
+            }
+          });
+          adjustHeight();
+          checkValidation(step);
+        }
+
+        nextButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            if (currentStep < steps.length - 1) {
+              currentStep++;
+              showStep(currentStep);
+            }
+          });
+        });
+
+        backButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            if (currentStep > 0) {
+              currentStep--;
+              showStep(currentStep);
+            }
+          });
+        });
+
+        window.addEventListener("resize", adjustHeight);
+
+        showStep(currentStep);
+        adjustHeight();
+
+        // Form validation
+        function validateStep(step) {
+          let valid = true;
+          if (step === 1) {
+            const day = document.querySelector(
+              "select[placeholder='Tag']"
+            ).value;
+            const month = document.querySelector(
+              "select[placeholder='Monat']"
+            ).value;
+            const year = document.querySelector(
+              "select[placeholder='Jahr']"
+            ).value;
+            if (!day || !month || !year) {
+              valid = false;
+            }
+          } else if (step === 2) {
+            const gender = document.getElementById("gender").value;
+            const lookingFor = document.getElementById("looking_for").value;
+            if (!gender || !lookingFor) {
+              valid = false;
+            }
+          } else if (step === 3) {
+            const ageFrom = document.getElementById("age_from").value;
+            const ageTo = document.getElementById("age_to").value;
+            if (!ageFrom || !ageTo || parseInt(ageFrom) > parseInt(ageTo)) {
+              valid = false;
+            }
+          } else if (step === 4) {
+            const locationInput =
+              document.getElementById("input-location").value;
+            if (!locationInput) {
+              valid = false;
+            }
+          } else if (step === 5) {
+            const emailInput = document.getElementById("input-email").value;
+            if (!emailInput || !validateEmail(emailInput)) {
+              valid = false;
+            }
+          } else if (step === 6) {
+            const usernameInput =
+              document.getElementById("gebruikersnaam").value;
+            if (usernameInput.length < 6) {
+              valid = false;
+            }
+          } else if (step === 7) {
+            const passwordInput = document.getElementById("wachtwoord").value;
+            if (passwordInput.length < 6) {
+              valid = false;
+            }
+          } else if (step === 8) {
+            const checkbox = document.getElementById("flexCheckDefault");
+            if (!checkbox.checked) {
+              valid = false;
+            }
+          }
+          return valid;
+        }
+
+        function validateEmail(email) {
+          const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return re.test(String(email).toLowerCase());
+        }
+
+        function checkValidation(step) {
+          const valid = validateStep(step);
+          const nextButton = steps[step].querySelector(".next-btn");
+
+          if (nextButton) {
+            // Ensure nextButton is not null
+            if (valid) {
+              nextButton.style.display = "block";
+            } else {
+              nextButton.style.display = "none";
+            }
+          }
+        }
+
+        steps.forEach((step, index) => {
+          if (index > 0) {
+            step.querySelectorAll("input, select").forEach((input) => {
+              input.addEventListener("input", () => checkValidation(index));
+              input.addEventListener("change", () => checkValidation(index));
+            });
+          }
+        });
+
+        showStep(currentStep);
+        adjustHeight();
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const logos = document.querySelectorAll(".logo-search");
+        let currentIndex = 0;
+        function showNextLogo() {
+          logos[currentIndex].classList.remove("current");
+          currentIndex = (currentIndex + 1) % logos.length;
+          logos[currentIndex].classList.add("current");
+        }
+        setInterval(showNextLogo, 200);
+      });
+
+      jQuery('[data-toggle="datepicker"]').datepicker();
+
+
+  // Define next_step function in the correct scope
+  function next_step(){
+    // var edsEmail = new EmailDomainSuggester($('#email'));
+    var btn_next= event.target;
+    //var btn_next= $("#"+id);
+    $(btn_next).parents('fieldset').fadeOut(400, function() {
+        $(this).next().fadeIn();
+        if($(this).next().hasClass("looking_for_loading")){
+            looking_for_loading();
+        }
+    });
+    if($(btn_next).parents('fieldset').hasClass("no-update")){
+        
+    } else if(typeof registration !== 'undefined'){
+        registration.update();
+    }
+}
+
+// Button Previous Step
+function prev_step(){
+    var btn_prev= event.target;
+    //var btn_next= $("#"+id);
+    $(btn_prev).parents('fieldset').fadeOut(400, function() {
+        $(this).prev().fadeIn();
+    });
+}
+
+      /* Looking for suitable partners - Progress indicators */
+      function looking_for_loading() {
+        var delay = 2500;
+        $("#f4 #v1").delay(delay).fadeIn().focus();
+        setTimeout(function () {
+          $("#v1").hide();
+          $("#v2").show();
+          $("#p1").hide();
+          $("#p2").show();
+        }, delay * 2);
+        setTimeout(function () {
+          $("#v2").hide();
+          $("#v3").show();
+          $("#p2").hide();
+          $("#p3").show();
+          logo_search(); //logo_search function
+        }, delay * 3);
+        setTimeout(function () {
+          $("#v3").hide();
+          $("#v4").show();
+          $("#p3").hide();
+          $("#p4").show();
+        }, delay * 5);
+        setTimeout(function () {
+          $("#v4").hide();
+          $("#v5").show();
+        }, delay * 6);
+        setTimeout(function () {
+          $("#f4").hide();
+          $("#f5").show();
+        }, delay * 7);
+      }
+
+      // function initAutocomplete() {
+      //   const input = document.getElementById('input-location');
+      //   const nextButton = document.querySelector(".step-5 .next-btn");
+      //   const autocomplete = new google.maps.places.Autocomplete(input);
+
+      //   autocomplete.addListener('place_changed', function () {
+      //     const place = autocomplete.getPlace();
+      //     if (place.geometry) {
+      //       nextButton.style.display = "block";
+      //     } else {
+      //       nextButton.style.display = "none";
+      //     }
+      //   });
+
+      //   input.addEventListener("input", function () {
+      //     if (!input.value) {
+      //       nextButton.style.display = "none";
+      //     }
+      //   });
+      // }
+
+      // google.maps.event.addDomListener(window, 'load', initAutocomplete);
+    </script>
+  </body>
+</html>

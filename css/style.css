@@ -1,0 +1,279 @@
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #0e121d;
+	background-image: url(https://demos.codexcoder.com/themeforest/html/ollya/assets/images/banner/bg-2.jpg);
+	background-size: cover;
+  overflow: hidden;
+}
+
+.main{
+  height: 100vh;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #0e121d;
+}
+body .body-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.15;
+  mix-blend-mode: color-dodge;
+}
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.step-card .form-check-label{
+  font-size: 12px;
+}
+.stepcard {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  perspective: 1000px;
+  max-width: 520px;
+}
+
+.step-card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 0 54px rgba(0, 0, 0, 0.25);
+  padding: 2.5rem;
+}
+
+
+.model {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 40%;
+	overflow: hidden;
+  z-index: -1;
+}
+.model-1 {
+	left: 0;
+  display: flex;
+	justify-content: flex-start;
+}
+.model-2 {
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.model img {
+	height: 100%;
+	object-fit: contain;
+	object-position: bottom center;
+}
+.list i {
+ color: #ed68a3;
+}
+.list li {
+	display: flex;
+	gap: 10px;
+	align-items: baseline;
+}
+.list li img {
+  position: relative;
+  top: 2px;
+}
+.form-control {
+  padding: 0.575rem 0.75rem;
+}
+
+.btn {
+  padding: 0.75rem 1.875rem;
+  border-radius: 50px;
+}
+.btn-primary {
+  background-color: #ed68a3;
+  border-color: #ed68a3;
+}
+.btn-primary:hover {
+  background-color: #c43f7a;
+  border-color: #c43f7a;
+}
+
+.shape-image.shape-3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+.shape-image.shape-2 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.logo-search-container {
+  height: 48px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.logo-search-container hr {
+  position: absolute;
+  width: 100%;
+  margin: 24px 0;
+  color: #015c4b;
+  opacity: 1;
+}
+.logo-search-container img {
+  height: 32px;
+  padding: 0 16px;
+  position: absolute;
+  top: 0;
+  background: #fff;
+  margin: 8px auto;
+  left: 0;
+  right: 0;
+}
+.logo-search {
+  display: none;
+}
+.logo-search.current {
+  display: block;
+}
+.error{
+  font-size: 13px;
+}
+.card-text span {
+	font-weight: bold;
+}
+.ripple{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-out {
+	-webkit-animation: fade-out 1s ease-out both;
+	        animation: fade-out 1s ease-out both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+ @-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/********/
+
+ @-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+
+
+@media (max-width: 991px) {
+  .col-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 767px) {
+  body{
+    font-size: 14px;
+  }
+  .model {
+    width: 60%;
+  }
+  .step-card {
+    padding: 2rem;
+    background-color: rgba(255,255,255,0.80);
+  }
+
+}
