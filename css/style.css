@@ -10,9 +10,13 @@ body {
 
 .main{
   height: 100vh;
+  max-height: -webkit-fill-available;
   overflow: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+.vh-100{
+  max-height: -webkit-fill-available;
 }
 
 .h1,
